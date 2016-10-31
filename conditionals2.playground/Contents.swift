@@ -14,6 +14,20 @@ var playerAAlive = true
 var playerBAlive = false
 var playerCAlive = true
 
-if playerAAlive == false || playerBAlive == false || playerCAlive == false {
+if !playerAAlive || playerBAlive == false || playerCAlive == false {
     print("one of your team members is down!")
+}
+
+//** !playerAALive is the same as playerAAlive == false
+
+//Can I retire??
+
+var age = 61
+var account = 50
+var richUncleThatDiedWhoLeftMeAnInhertitance = false
+
+if account > 70000 && age >= 60 || richUncleThatDiedWhoLeftMeAnInhertitance == true {
+    print("you can retire")
+} else {
+    print("you are too poor or too young to retire!!")
 }
